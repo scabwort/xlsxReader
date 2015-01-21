@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data out="../Unity/Assets/StreamingAssets/config.W" codePath="../Unity/Assets/Script/Config/ConfigObj/">
+	<node type="client" xlsx="Data/道具表.xlsx" page="道具总表" key="Id" code="ItemConfig.cs">
+		<item type="int" 	name="道具ID" 			code="Id" />
+		<item type="int" 	name="图标ID" 	    	code="Icon" />
+		<item type="int" 	name="稀有度"			code="Quality" />
+		<item type="int" 	name="品阶"				code="Level" />
+		<item type="string" name="名称"   			code="Name" />
+		<item type="short"  name="数量注明"     	code="ItemNum" />
+		<item type="byte" 	name="类型"	    		code="ItemType" />
+		<item type="byte" 	name="细分类"	    	code="MaterialSort" />
+		<item type="byte"   name="是否自动使用" 	code="AutoUse" />
+		<item type="int"    name="叠加上限" 		code="MaxStack" />
+		<item type="int"	name="出售价格"  		code="SellPrice" />
+		<item type="string"	name="道具说明"			code="Descript" />
+	</node>
+	<node type="client" xlsx="Data/道具表.xlsx" page="升阶时间" key="Id" code="PartUpgradeTimeConfig.cs">
+		<item type="int" 	name="部件ID" 				code="Id" />
+		<item type="string" name="名称" 				code="PartName" />
+		<item type="int" 	name="升2时间" 				code="Advanced2" />
+		<item type="int" 	name="升3时间" 				code="Advanced3" />
+		<item type="int" 	name="升4时间"				code="Advanced4" />
+		<item type="int" 	name="升5时间"				code="Advanced5" />
+		<item type="int"    name="升6时间"				code="Advanced6" />
+		<item type="int" 	name="升7时间"				code="Advanced7" />
+		<item type="int" 	name="升8时间"				code="Advanced8" />
+		<item type="int" 	name="升9时间"				code="Advanced9" />
+	</node>
+</data>
